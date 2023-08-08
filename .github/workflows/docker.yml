@@ -6,7 +6,7 @@ on:
       - v*
 
 env:
-  DOCKERHUB_REPO: hxrbunny/wxhelper-docker
+  DOCKERHUB_REPO: dufumove/wxhelper-docker
 
 jobs:
   main:
