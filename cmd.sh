@@ -7,6 +7,6 @@ wine 'C:\Program Files (x86)\Tencent\WeChat\WeChat.exe' &
 
 sleep 10
 
-wine 'C:\Injector.exe' --process-name WeChat.exe --inject 'C:\wxhelper.dll' 2>&1
+wine 'C:\DllInjector.exe' --process-name WeChat.exe --inject 'C:\wxhelper.dll' 2>&1
 
 wait
