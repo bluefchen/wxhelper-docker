@@ -2,7 +2,8 @@ FROM furacas/wine-vnc-box:latest
 
 WORKDIR /home/app/.wine/drive_c
 
-ADD https://github.com/furacas/DllInjector/releases/download/v1.4.0/DllInjector64.exe DllInjector.exe
+# https://github.com/nefarius/Injector/releases/tag/v1.1.12
+COPY Injector.exe DllInjector.exe
 
 RUN sudo chown app:app DllInjector.exe
 
